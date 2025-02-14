@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-next-ensure-auth",
+  "name": "eslint-plugin-next-require-auth",
   "version": "1.0.0",
-  "description": "A simple config for ensuring server functions in Next.js are protected by the `ensureAuth` middleware",
+  "description": "A simple config for ensuring server functions in Next.js are protected by the `requireAuth` function",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,9 @@
     "eslint",
     "eslintplugin"
   ],
-  "dependencies": {
-    "eslint": "^8.0.0"
-  },
   "author": "Zavier Miller",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  }
 }
